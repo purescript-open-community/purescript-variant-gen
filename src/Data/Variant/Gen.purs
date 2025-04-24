@@ -11,7 +11,7 @@ import Data.Variant (Variant, inj)
 import Prim.Row as Row
 import Prim.RowList as RL
 import Record as Record
-import Type.Prelude (Proxy(..))
+import Type.Proxy (Proxy(..))
 
 -- Generate a `Variant` with uniform probability given a record whose
 -- generators' labels correspond to the `Variant`'s labels
